@@ -111,11 +111,17 @@ body {
 }
 
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 2rem;
 }
 
 .right-title {
     color: #000000;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 .gap {
@@ -124,4 +130,43 @@ body {
 .about-me-contents {
     font-size: 18px;
     color: #000000;
+}
+
+.experience-contents,
+.certification-contents,
+.language-contents {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 2rem;
+        color: #000000;
+}
+
+.exp-company-name,
+.certification-school-name,
+.language-company-name {
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+.exp-time-period,
+.certification-time-period,
+.language-time-period {
+    font-size: 18px;
+    
+}
+
+.exp-position,
+.certification-subject,
+.language-name {
+    font-size: 25px;
+   
+}
+
+.exp-description,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
+    
 }
