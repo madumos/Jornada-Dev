@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color:#76917d;
+    background-color: #00766E;
      }
 
 /*-----------------------------------------------------------------------
@@ -26,7 +26,8 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #FFE4E1;
+    background-color: #FBEAEB;
+    border-right: 3px solid #00766E;
 }
 
 .left-section-contents{
@@ -35,6 +36,7 @@ body {
 
 .profile {
     width: 100%;
+    
 }
 
 .profile .profile-image {
@@ -49,7 +51,7 @@ body {
 }
 
 .name {
-    color: #3b503d;
+    color: #514344;
     font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -59,16 +61,17 @@ body {
 }
 
 .profession {
-    color: #558962;
+    color: #00C9BD;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #558962;
+    color: #00C9BD;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -87,7 +90,7 @@ body {
 .contact-info ul li,
 .references ul li {
     padding: 0.4rem 0;
-    color: #3b503d; 
+    color: #514344; 
     font-size: 18px;
     letter-spacing: 1px;
     display: flex;
@@ -97,45 +100,49 @@ body {
 
 
   /*links*/
-a:link {
-    color: #3b503d; 
+ a:link {
+    color: #514344; 
   }
   
-  a:visited {
-    color: #3b503d; 
+a:visited {
+    color: #514344; 
   }
 
-  a:hover {
-    color: #558962;
+ a:hover {
+    color: #00766E;
   }
   
-  a:active {
-    color: #558962;
+a:active {
+    color: #00766E;
   }
 
-.skills ul {
+.skills ul,
+.language ul {
     padding-top: 1.5rem;
     padding-left: 2rem;
+    padding-bottom: 5px;
 }
-.skills ul li p {
-    color: #3b503d; 
-    font-size: 20px;
+.skills ul li p,
+.language ul li p {
+    color: #514344; 
+    font-size: 18px;
     letter-spacing: 1px;
     display: inline-block;
-    text-transform: uppercase;
 }
 
-.skill-name {
+.skill-name,
+.language-name {
     text-align: left;
     width: 30%;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
   }
   
-  .skill-rating {
+  .skill-rating,
+  .language-fluency {
     text-align: right;
     width: 70%;
     padding-right: 30px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
   }
 
 
@@ -155,8 +162,8 @@ a:link {
 }
 
 .right-title {
-    color: #558962;
-    font-size: 40px;
+    color: #00766E;
+    font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 1000;
@@ -172,31 +179,34 @@ a:link {
 }
 .about-me-contents {
     font-size: 18px;
-    color: #3b503d;
+    color: #514344;
     padding-left: 20px;
+    line-height: 2rem;
 }
 
 .experience-contents,
 .certification-contents,
-.language-contents {
+.project-contents {
       display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 2rem;
-     color: #3b503d;
+    padding-bottom: 1rem;
+     color: #514344;
 }
 
 .exp-company-name,
 .certification-school-name,
-.language-company-name {
+.project-name {
     font-size: 25px;
     font-weight: bold;
     padding-left: 20px;
+    padding-bottom: 1rem;
+    color: #00C9BD;
    
 }
 
 .exp-time-period,
 .certification-time-period,
-.language-time-period {
+.project-time-period {
     font-size: 18px;
     padding-left: 20px;
     
@@ -204,15 +214,34 @@ a:link {
 
 .exp-position,
 .certification-subject,
-.language-name {
+.project-platform {
     font-size: 25px;
+    padding-bottom: 1rem;
+    color: #00C9BD;
    
 }
 
 .exp-description,
 .education-description,
-.awards-description {
+.project-description {
     font-size: 16px;
     padding-left: 5px;
-    
+    padding-bottom: 1rem;
+    line-height: 2rem;
 }
+
+.project a:link {
+    color: #00C9BD;; 
+  }
+  
+.project a:visited {
+    color: #00C9BD;; 
+  }
+
+.project  a:hover {
+    color: #00766E;
+  }
+  
+.project a:active {
+    color: #00766E;
+  }
