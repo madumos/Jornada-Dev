@@ -1,2 +1,1 @@
-# Jornada-Dev
-Exercícios da Jornada Dev da EBAC
+Currículo elaborado na Jornada-Dev da EBAC
